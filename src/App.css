@@ -7,6 +7,9 @@ body {
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 
 /* Container */
 .container {
@@ -96,8 +99,8 @@ input.form-control {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
 }
-.cart{
-  color: #333;
+.cart a{
+  color: #333!important;
 }
 .cart-header{
   background-color: #00bff3!important;
@@ -106,3 +109,13 @@ input.form-control {
   border-radius: 8px;
 }
 
+.react-r{
+  color: #00bff3;
+  background-color: white;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.quantity{
+  color: #333;
+}
