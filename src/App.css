@@ -119,3 +119,81 @@ input.form-control {
 .quantity{
   color: #333;
 }
+/* Container for the SignIn form */
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Box that wraps the sign-in form */
+.signin-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* SignIn title styling */
+.signin-box h2 {
+  margin-bottom: 20px;
+}
+
+/* Login form styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Input group styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+/* Label styling */
+.input-group label {
+  margin-bottom: 5px;
+}
+
+/* Input styling */
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Normal Login button styling */
+.login-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Facebook login button styling */
+.fb-login-btn {
+  padding: 10px 20px;
+  background-color: #4267b2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Font Awesome icon for Facebook */
+.fb-login-btn i {
+  margin-right: 8px;
+}
