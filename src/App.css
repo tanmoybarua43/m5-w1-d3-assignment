@@ -10,6 +10,12 @@ body {
 a{
   text-decoration: none;
 }
+p{
+  color: black;
+}
+.PriceTag{
+  color: red;
+}
 
 /* Container */
 .container {
